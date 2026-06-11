@@ -10,7 +10,7 @@ import {
   Topic,
 } from './types';
 
-const API_URL = import.meta.env.VITE_API_URL ?? '/api';
+const API_URL = import.meta.env.VITE_API_URL ?? 'https://admin-moderator-backend-staging.up.railway.app';
 
 type RequestOptions = RequestInit & { token?: string | null };
 
